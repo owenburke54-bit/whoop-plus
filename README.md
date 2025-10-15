@@ -1,6 +1,6 @@
 # Whoop Plus Prototype
 
-Next.js + Tailwind CSS + TypeScript (App Router).
+AI-powered WHOOP expansion prototype | Next.js + TypeScript + Tailwind | Elite Athlete & General Fitness views
 
 ## Getting Started
 
