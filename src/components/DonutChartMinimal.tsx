@@ -13,3 +13,4 @@ export default function DonutChartMinimal({ value, color = '#60A5FA', size = 140
 }
 
 
+

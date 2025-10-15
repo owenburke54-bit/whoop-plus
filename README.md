@@ -33,5 +33,8 @@ It introduces two user modes and AI-driven features that extend WHOOP’s missio
 
 Clone the repository:
 ```bash
-git clone https://github.com/owenburke54-bit/whoop-plus.git
-cd whoop-plus
+npm install
+npm run dev
+```
+
+Open http://localhost:3000
