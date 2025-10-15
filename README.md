@@ -1,6 +1,6 @@
 # Whoop Plus Prototype
 
-AI-powered WHOOP expansion prototype | Next.js + TypeScript + Tailwind | Elite Athlete & General Fitness views
+Next.js + TypeScript + Tailwind
 
 ## Getting Started
 
