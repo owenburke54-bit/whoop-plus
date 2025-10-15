@@ -50,9 +50,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const [journal, setJournal] = useState<JournalEntry[]>(seedJournal);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [team] = useState<TeamMember[]>([
-    { userId: 'u1', name: 'Alex', latest: { recoveryScore: 72, strainScore: 10.4, sleepHours: 7.6, hydrationScore: 88 } },
-    { userId: 'u2', name: 'Taylor', latest: { recoveryScore: 54, strainScore: 13.1, sleepHours: 6.9, hydrationScore: 76 } },
-    { userId: 'u3', name: 'Jordan', latest: { recoveryScore: 63, strainScore: 9.2, sleepHours: 7.2, hydrationScore: 92 } }
+    { userId: 'u1', name: 'Alex', latest: { recoveryScore: 72, strainScore: 10.4, sleepHours: 7.6, hydrationScore: 88, hrv: 70 } },
+    { userId: 'u2', name: 'Taylor', latest: { recoveryScore: 54, strainScore: 13.1, sleepHours: 6.9, hydrationScore: 76, hrv: 62 } },
+    { userId: 'u3', name: 'Jordan', latest: { recoveryScore: 63, strainScore: 9.2, sleepHours: 7.2, hydrationScore: 92, hrv: 78 } }
   ]);
 
   // Utilities

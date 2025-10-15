@@ -65,7 +65,7 @@ export interface Bookmark {
 export interface TeamMember {
   userId: string;
   name: string;
-  latest: Pick<Metrics, 'recoveryScore' | 'strainScore' | 'sleepHours' | 'hydrationScore'>;
+  latest: Pick<Metrics, 'recoveryScore' | 'strainScore' | 'sleepHours' | 'hydrationScore' | 'hrv'>;
 }
 
 
